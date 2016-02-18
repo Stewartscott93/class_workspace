@@ -16,7 +16,8 @@
     accessToken: 'your.mapbox.public.access.token'
 }).addTo(map);
 
-       marker.bindPopup("<b>Samuel Powel School <b>SPP Score: 85.8</b><br>
+       var marker = L.marker([39.9603237, -75.1957877]).addTo(map)
+       .bindPopup("<b>Samuel Powel School <b>SPP Score: 85.8</b>
        <br>Black-74.4%
        <br>White-9.2%
        <br>Asian-4.1%
